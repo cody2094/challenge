@@ -7,7 +7,7 @@ namespace Cody\Challenge;
 *
 *			@author			Cody Brown <cody2094@hotmail.com>;
 *			@date			 	2017-11-18;
-*			@package		Bundle Shipments		
+*			@package		 Cody Brown Challenge
 *
 */
 class Challenge {
