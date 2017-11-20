@@ -6,8 +6,8 @@ namespace Cody\Challenge;
 * This is a class that builds and outputs all possible sums given currency denominations where each denomination equals an arbitrary sum
 *
 *			@author			Cody Brown <cody2094@hotmail.com>;
-*			@date			 	2017-11-18;
-*			@package		 Cody Brown Challenge
+*			@date				2017-11-18;
+*			@package		Cody Brown Challenge
 *
 */
 class Challenge {
