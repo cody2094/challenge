@@ -3,17 +3,17 @@
 namespace Cody\Challenge;
 
 /**
-*			This is a class that builds and outputs all possible sums given currency denominations where each denomination equals an arbitrary sum
+* This is a class that builds and outputs all possible sums given currency denominations where each denomination equals an arbitrary sum
 *
-* 		@author			Cody Brown <cody2094@hotmail.com>;
-* 		@date			 	2017-11-18;
+*			@author			Cody Brown <cody2094@hotmail.com>;
+*			@date			 	2017-11-18;
 *			@package		Bundle Shipments		
 *
 */
 class Challenge {
 	
-  private $currency_arr = array();
-  private $header_arr = array();
+	private $currency_arr = array();
+	private $header_arr = array();
 	private $target = 0;
 	public  $solutions = array();
 	public  $solution_count = 0;
@@ -119,7 +119,7 @@ class Challenge {
 	*			@param		 $str		A comma separated string with the denomination first, and then sum of that denomination it takes to hit the maximum sum
 	* 											EX: $str = "Quarter,4,Dime,10,Nickel,20,Penny,100";
 	*/
-  public function change_currency($str) {
+	public function change_currency($str) {
 		$ret = false;
 		if (is_string($str)) {
 			$arr = explode(',', $str);
