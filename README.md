@@ -8,7 +8,7 @@ This is a class that builds and outputs all possible sums given currency denomin
 Download this repository via Git and run composer on the package.
 
 
-Below is a code sample displaying how to run this challenge:
+Below is a code sample displaying how to run this challenge... this can also be found in src/test_output.php
 
 ```
 include('Challenge.php');
