@@ -1,0 +1,27 @@
+{
+    "name": "philipbrown/Nacho",
+    "description": "This is a Coding Challenge",
+    "authors": [
+        {
+            "name": "Cody Brown",
+            "email": "cody2094@hotmail.com"
+        }
+    ],
+    "require": {
+		
+    }, 
+		"require-dev": {
+			"phpunit/phpunit" : "5.7.*"
+    },
+		"autoload": {
+				"psr-4": {
+						"Cody\\Challenge\\": "src"
+				}
+		},
+		"autoload-dev": {
+				"psr-4": {
+						"Tests\\": "tests/",
+						"Cody\\Challenge\\": "src"
+				}
+		}
+}
